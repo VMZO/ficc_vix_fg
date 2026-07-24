@@ -73,7 +73,7 @@ fg_rating = fg_df['rating'].dropna().iloc[-1]
 # Streamlit
 st.set_page_config(
     page_title="FICC / VIX / Fear & Greed",                 # 브라우저 탭에 보일 글자
-    page_icon="/home/cosmos/streamlit_app/favicon.ico",     # 파비콘 (이모지, 이미지 파일 등)
+    page_icon="favicon.ico",     # 파비콘 (이모지, 이미지 파일 등)
     # layout="wide",                                        # 선택 사항
 )
 
